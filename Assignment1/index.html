@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        .main{
+            width: 850px;
+            margin: auto;
+            height: 1030px;
+            background-color: rgb(236, 160, 135);
+        }
+        h1{
+            text-align: center;
+            color: darkblue;
+        }
+        p{
+            text-align: center;
+            color: skyblue;
+            font-size: larger;
+        }
+        .box1,.box2,.box3{
+            border: 1px solid black;
+            /* padding: 10px; */
+            position: relative;
+            width: 500px;
+            margin: auto;
+            margin-top: 70px;
+            height: 150px;
+            text-align: center;
+            background-color: lightcyan;
+        }
+        form{
+            margin-top: 30px;
+        }
+        .heading{
+            position: absolute;
+            top: -25px;
+            left: 190px;
+            border: 1px solid white;
+            background-color: white;
+            font-size: medium;
+            color: deeppink;
+        }
+        label{
+            font-size: larger;
+            color: rgb(1, 181, 184);
+        }
+        sub{
+            color: red;
+        }
+        .box2 label{
+            font-size: larger;
+            color: purple;
+        }
+        .box2 .heading{
+            left: 220px;
+        }
+        .box3{
+            height: 350px;
+        }
+        .box3 label{
+            font-size: larger;
+            color: green;
+        }
+        footer{
+            text-align: center;
+            margin-top: 37px;
+        }
+        button{
+            border-top: 1px solid white;
+            border-left: 1px solid white;
+            border-bottom: 1px solid grey;
+            border-right: 1px solid grey;
+            width: 100px;
+            height: 45px;
+            background-color: orange;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Buy Tickets to the Web Developer Gala</h1>
+        <p>Tickets are $10 each. Dinner packages are an extra $5. All fields are required</p>
+        <div class="box1">
+            <h2 class="heading">Tickets and Add-ons</h2>
+            <form>
+                <label>Number of Tickets  <sub>Limit 8</sub> </label>
+                <input type="number" name="number" style="width: 50px;" value="1"/><br/><br/>
+                <label>Dinner Packages <sub>Serves 2</sub> </label>
+                <input type="text" name="text" style="width: 50px;" value="1"/>
+            </form>
+        </div>
+        <div class="box2">
+            <h2 class="heading">payment</h2>
+            <form>
+                <label>Credit card number<sub>No spaces or dates,please</sub></label>
+                <input type="text" name="text" style="width: 150px;" placeholder="3720000000000008"/><br/><br/>
+                <label>Expiration date<sub>DD/MM/YYYY</sub></label>
+                <input type="text" name="text" style="width: 70px;" placeholder="01/05/2018"/>
+            </form>
+        </div>
+        <div class="box3">
+            <h2 class="heading">Billing Address</h2>
+            <form>
+                <label>Name</label><br/>
+                <input type="text" name="text" style="width: 270px;" placeholder="ex. John Q. Public"/><br/><br/>
+                <label>Street Address</label><br/>
+                <input type="text" name="text" style="width: 270px;" placeholder="ex. 12345 Main Street, Apt23"/><br/><br/>
+                <label>City</label><br/>
+                <input type="text" name="text" style="width: 150px;" placeholder="ex. Anytown"/><br/><br/>
+                <label>State</label><br/>
+                <input type="text" name="text" style="width: 35px;" placeholder="CA"/><br/><br/>
+                <label>ZIP</label><br/>
+                <input type="text" name="text" style="width: 70px;" placeholder="12345"/><br/><br/>
+            </form>
+        </div>
+        <footer>
+            <button>Buy Tickets</button>
+        </footer>
+    </div>
+</body>
+</html>

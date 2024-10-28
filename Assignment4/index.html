@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1#0">
+    <title>Document</title>
+    <style>
+        #main{
+            background-color: lightgray;
+        }
+        #parent p{
+            text-align: center;
+        }
+        #parent, #parent1{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        #child1{
+            height: 100px;
+            width: 150px;
+            margin: 15px;
+            background-color: whitesmoke;
+        }
+        #child2{
+             width: 900px;
+            height: fit-content; 
+        }
+        #child3{
+            /* display: flex; */
+            /* flex: 5px; */
+            height: 100px;
+            width: 150px;
+            margin: 15px; 
+            background-color: whitesmoke;
+        }
+        #child4{
+            height: 220px;
+            width: 230px;
+            margin: 15px;
+            border: 1px solid;
+            background-color: white;
+            text-align: justify;
+        }
+        #child6{
+            width: 230px;
+            margin: 15px;
+            border: 1px solid;
+            height: 230px;
+            background-color: white;
+            text-align: justify;
+            /* padding: 15px; */
+        }
+        #child5{
+            height: 580px;
+            width: 750px;
+            border: 1px solid;
+            margin: 15px;
+            background-color: white;
+            text-align: justify;
+            /* margin-right: 5px; */
+        }
+        #parent3{
+            display: flex;
+            justify-content: space-between;
+        }
+        #child7{
+            border: 1px solid;
+            height: 330px;
+            width: 230px;
+            margin: 15px;
+            margin-top: -350px;
+            background-color: white;
+            text-align: justify;
+            /* float: left; */
+        }
+        #parent4{
+            height: fit-content;
+            width: 230px;
+            margin: 24px;
+            margin-top: -347px;
+        }
+        #child8, #child9, #child10{
+            border: 1px solid;
+        }
+        /* #child8{
+            border: 1px solid;
+            height: 95px;
+            width: 230px;
+            margin: 20px;
+            margin-top: -305px;
+            background-color: white;
+            text-align: justify;
+        }
+        #child9{
+            border: 1px solid;
+            margin-top: -5px;
+            height: 95px;
+            background-color: white;
+        }
+        #child10{
+            border: 1px solid;
+            height: 95px;
+            background-color: white;
+        } */
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="parent">
+            <div id="child1"></div>
+            <div id="child2">
+                <h1>Title pitched at general audience that provides conclusion or at least hints at something interesting</h1>
+                <p>Colin B#Purrington,Department of Posterology, Hudson University</p>
+            </div>
+            <div id="child3"></div>
+        </div>
+        <div id="parent1">
+            <div id="child4">
+                <h2>Introduction</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, magnam perferendis ullam at a accusamus, magni illum adipisci ut voluptatem quo minima! Veniam blanditiis quasi laborum, magni quas fugit nemo.</p>
+            </div>
+            <div id="child5">
+                <h2>Introduction</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, magnam perferendis ullam at a accusamus, magni illum adipisci ut voluptatem quo minima! Veniam blanditiis quasi laborum, magni quas fugit nemo.</p>
+            </div>
+            <div id="child6">
+                <h2>Introduction</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, magnam perferendis ullam at a accusamus, magni illum adipisci ut voluptatem quo minima! Veniam blanditiis quasi laborum, magni quas fugit nemo.</p>
+            </div>
+        </div>
+        <div id="parent3">
+            <div id="child7">
+                <h2>Introduction</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, magnam perferendis ullam at a accusamus, magni illum adipisci ut voluptatem quo minima! Veniam blanditiis quasi laborum, magni quas fugit nemo.</p>
+            </div>
+            <div id="parent4">
+                <div id="child8">
+                    <h2>Introduction</h2>
+                    <p>Lorem ipsum, dolor sit amet</p>
+                </div>
+                <div id="child9">
+                        <h3>Acknoledgements</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div id="child10">
+                        <h3>Further Information</h3>
+                        <p>please see https://colinpurrington for more templates and tips.</p>
+                </div>
+            <!-- </div> -->
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

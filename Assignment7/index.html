@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            /* padding: 10px; */
+        }
+        article{
+            flex: 1 1 calc(33% - 30px);
+        }
+        #art1, #art4, #art7,#art8,#art9{
+            text-align: center;
+            /* flex: content; */
+        }
+        #art1{
+            border-style: double;
+            border-width: 4px;
+            /* height: 50px; */
+            width: 10%;
+        }
+        #art1 p{
+            margin-top: 40px;
+        }
+        #art2, #art5{
+            font-weight: bolder;
+            font-size: x-large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+        }
+        #art5{
+            font-weight: normal;
+            font-size: medium;
+            text-align: center;
+        }
+        #art3, #art6{
+            text-align: center;
+        }
+        #art3 p{
+            margin-top: 40px;
+            /* text-align: justify; */
+        }
+        .div1{
+            /* border: 1px solid; */
+            justify-content: center;
+            font-size: larger;
+            background-color: gray;
+            /* margin-bottom: 10px; */
+            /* height: fit-content; */
+            /* height: 50px; */
+        }
+        #art7, #art8{
+            text-align: justify;
+        }
+        #art8{
+            /* border: 1px solid; */
+            margin-left: 35px;
+            margin-top: 5px;
+        }
+        #art10{
+            /* display: grid;
+            grid-template-columns: repeat(2,1fr); */
+            display: flex;
+        }
+        #image1{
+            margin-top: 15px;
+        }
+        #sub1{
+            flex: 80px;
+            /* border: 1px solid; */
+            text-align: justify;
+        }
+        #sub2{
+            flex: 80px;
+            /* border: 1px solid; */
+            text-align: justify;
+            margin-left: 30px;
+            padding-left: 20px;
+        }
+        #art11{
+            text-align: justify;
+            /* border: 1px solid; */
+            margin-left: 85px;
+        }
+        #hr1{
+            margin-left: 65px;
+            /* height: 450px; */
+        }
+        #art12, #art13, #art14{
+            text-align: justify;
+            /* border: 1px solid; */
+        }
+        #art13, #art14{
+            margin-left: 15px;
+        }
+        #headline2{
+            justify-content: center;
+            font-size: xx-large;
+        }
+        #sub3{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <article id="art1"><p>All the news ~<br/> The right price</p></article>
+        <article id="art2"><h1>The Newspaper</h1></article>
+        <article id="art3"><p>Late Edition<br/>Cold tonight with showers likely</p></article>
+    </div>
+    <hr/>
+    <div>
+        <article id="art4"><p>Regional Coverage</p></article>
+        <article id="art5"><p>Tuesday, October 23, 1953</p></article>
+        <article id="art6"><p>World Exculsives</p></article>
+    </div>
+    <hr/>
+    <div class="div1">
+        <h1>INSERT HEADLINE HERE</h1>
+    </div>
+    <div>
+        <article id="art7">
+            <p>line goes here</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor molestiae asperiores. Modi cum fuga quae autem assumenda dolore culpa veritatis officia iure aperiam ipsam, aspernatur inventore, repudiandae nobis nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, praesentium magnam id impedit repellendus quia neque quaerat aut omnis dicta modi doloremque unde vel asperiores corporis? Error nam illo nisi!</p>
+        </article>
+        <article id="art8">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ex ipsam labore aspernatur laudantium. Nemo obcaecati, id harum animi et totam? Ad quibusdam cum repellat, similique beatae provident quas vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor minima enim dicta ipsam animi nobis non fugit nesciunt, consectetur nihil impedit magnam dolores suscipit ullam a deleniti velit. A, delectus?</p>
+        </article>
+        <article id="art9">
+            <img src="sea.jpg" height="180px" width="350px" id="image1">
+            <p>Sentence to explain photo</p>
+        </article>
+    </div>
+    <hr/>
+    <div>
+        <article id="art10">
+            <div id="sub1">
+                <h3>Headline</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor molestiae asperiores. Modi cum fuga quae autem assumenda dolore culpa veritatis officia iure aperiam ipsam, aspernatur inventore, repudiandae nobis nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, praesentium magnam id impedit repellendus quia neque quaerat aut omnis dicta modi doloremque unde vel asperiores corporis? Error nam illo nisi!</p>
+            </div>
+            <div id="sub2">
+                <img src="sea.jpg" height="180px" width="290px">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ex ipsam labore aspernatur laudantium. Nemo obcaecati, id harum animi et totam? Ad quibusdam cum repellat, similique beatae provident quas vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ratio</p>
+            </div>
+        </article><hr id="hr1"/>
+        <article id="art11">
+            <h3>News Three</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium, deleniti corrupti quia beatae hic sed. Voluptates maxime, odio pariatur veritatis quisquam ullam cumque numquam, nesciunt quae quod omnis! Nam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quidem quas quasi mollitia molestiae, molestias placeat voluptate? Obcaecati quae maxime quis asperiores eaque earum repellendus, ipsa itaque expedita aut. Laboriosam?</p>
+        </article>
+    </div>
+    <div id="headline2">
+        <h2>Headlines with different format goes here</h2>
+    </div>
+    <div>    
+        <article id="art12">
+            <h3>News one</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor molestiae asperiores. Modi cum fuga quae autem assumenda dolore culpa veritatis officia iure aperiam ipsam, aspernatur inventore, repudiandae nobis nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, praesentium magnam id impedit repellendus quia neque quaerat aut omnis dicta modi doloremque unde vel asperiores corporis? Error nam illo nisi!</p>
+        </article>
+        <article id="art13">
+            <h3>News Two</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ex ipsam labore aspernatur laudantium. Nemo obcaecati, id harum animi et totam? Ad quibusdam cum repellat, similique beatae provident quas vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ratione earum quibusdam vel corrupti officia culpa provident ea aliquam, voluptatum minima error doloribus beatae ab eum eaque, blanditiis vitae dolorum.</p>
+        </article>
+        <article id="art14">
+            <h3>News Three</h3>
+            <div id="sub3">
+                <p>A Quote here will provide credibility to your story.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium, deleniti corrupti quia beatae hic sed. Voluptates maxime, odio pariatur veritatis quisquam ullam cumque numquam, nesciunt quae quod omnis! Nam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quidem quas quasi mollitia molestiae, molestias placeat voluptate? Obcaecati quae maxime quis asperiores eaque earum repellendus, ipsa itaque expedita aut. Laboriosam?</p>
+        </article>
+    </div>
+</body>
+</html>

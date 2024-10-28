@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#main{
+    border: 1px solid;
+    width: 750px;
+    height: fit-content;
+    margin-top: 85px;
+    background-color: black;
+}
+#heading-container{
+    display: flex;
+    justify-content: center;
+    border: 4px solid red;
+    border-style: dashed;
+    border-radius: 15px;
+    background-color: white;
+    width: 380px;
+    height: 75px;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: -60px;
+}
+#heading{
+    width: 350px;
+    height: 45px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#hr1, hr{
+    height: 30px;
+    width: 0;
+    margin: 0 auto;
+    /* border: none; */
+    border-color: palevioletred;
+}
+hr{
+    height: 110px;
+}
+#dob,
+#secondary-education,
+#ug,
+#pg,
+#skill-course,
+#future{
+    border: 1px solid palevioletred;
+    color: whitesmoke;
+    width: 85px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+#dob h2{
+    margin-top: 5px;
+}
+#pg{
+    margin-top: 18px;
+}
+#future{
+    margin-top: 27px;
+}
+#born, #bca, #full-stack{
+    border:1px solid;
+    border-color: blue;
+    color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    height: 60px;
+    margin-top: -90px;
+    margin-left: 30px;    
+}
+#bca{
+    margin-top: -80px;
+}
+#born h2{
+    margin-top: 15px;
+}
+#secondary-education{
+    margin-top: 26px;
+}
+#higher-secondary, #mca, #future1{
+    border: 1px solid blue;
+    color: whitesmoke;
+    width: 300px;
+    height: 65px;
+    text-align: center;
+    float: inline-end;
+    margin-top: -80px;
+    margin-right: 30px;
+}

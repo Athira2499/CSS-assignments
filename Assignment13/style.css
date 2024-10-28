@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+#child1{
+    display: inline-flex;
+    gap: 35px;
+}
+#child2{
+    display: inline-flex;
+    gap: 65px;
+}
+input{
+    height: 25px;
+    width: 255px;
+}
+#envelope1{
+    margin-left: 100px;
+}
+#envelope4{
+    width: 25px;
+    margin-top: 5px;
+}
+#progress-container {
+    width: 100%;
+    padding: 5px;
+}
+
+#progress-bar{
+    height: 15px;
+    width: 260px;
+    background-color: blue;
+    border-radius: 15px;
+}
+#progress-heading{
+    display: flex;
+    justify-content: space-between;
+}
+#label1{
+    margin-left: 55px;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+}
+footer{
+    height: 105px;
+    background-color: white;
+}
+footer p{
+    float: left;
+}
+footer button{
+    float: right;
+}
+#body{
+    display: grid;
+    grid-template-columns: repeat(15,100px);
+    grid-template-rows: repeat(44,100px);
+    background-color: gainsboro;
+}
+#left-1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-left: 35px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+#left-1-child1 p{
+    float: right;
+    border: 1px solid;
+    background-color: greenyellow;
+    color: white;
+}
+#left-1-child2 p{
+    float: right;
+    border: 1px solid;
+    background-color: red;
+    color: white;
+}
+#left-2{
+    grid-column: 1/4;
+    grid-row: 2/4;
+    margin-left: 35px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    margin-top: 5px;
+}
+#left-3{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    margin-left: 35px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    margin-top: 5px;
+}
+#growth{
+    grid-column: 4/7;
+    grid-row: 1/2;
+    text-align: center;
+    margin-left: 45px;
+    background-color: white;
+}
+#users{
+    grid-column: 7/10;
+    grid-row: 1/2;
+    text-align: center;
+    margin-left: 5px;
+    background-color: white;
+}
+#profile{
+    grid-column: 10/13;
+    grid-row: 1/2;
+    text-align: center;
+    margin-left: 5px;
+    background-color: white;
+}
+#messages{
+    grid-column: 4/6;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 45px;
+    background-color: white;
+}
+#client{
+    grid-column: 6/8;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+#expenses{
+    grid-column: 8/10;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+#device-progress{
+    grid-column: 10/13;
+    grid-row: 2/4;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+#total-sales{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 45px;
+    background-color: white;
+}
+#social-feed{
+    grid-column: 6/8;
+    grid-row: 3/4;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+#bounce-rate{
+    grid-column: 8/10;
+    grid-row: 3/4;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+#profile-chart{
+    grid-column: 4/13;
+    grid-row: 4/7;
+    border: 1px solid whitesmoke;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+#table{
+    grid-column: 4/13;
+    grid-row: 7/11;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+table{
+    width: 854px;
+}
+#color-row{
+    background-color: white;
+}

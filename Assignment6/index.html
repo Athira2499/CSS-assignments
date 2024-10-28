@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+    header h1{
+        font-size: xx-large;
+        padding-left: 100px;
+        color: black;
+    }
+    ul li{
+        list-style: none;
+        display: inline-block;
+        padding-right: 30px;
+        color: black;
+    }
+    #image1{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+    /* position: fixed; */
+    }
+    .div2{
+    position: relative;
+    top: 90px;
+    font-size: xx-large;
+    /* position: fixed; */
+    z-index: 2;
+    }
+    .div2 h1{
+        color: white;
+        margin-left: 90px;
+        }
+    .div2 p{
+        height: 50px;
+        width: 550px;
+        font-size: x-large;
+        margin-left: 90px;
+        color: rgba(255, 255, 255, 0.856);
+        }
+    #btn1{
+        margin-left: 90px;
+        /* margin-top: 40px; */
+        height: 50px;
+        width: 120px;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        font-weight: bold;
+        }
+    #btn2{
+        height: 50px;
+        width: 190px;
+        margin-top: 40px;
+        border: none;
+        font-weight: bold;
+    }
+    #square{
+            /* border: 2px solid red; */
+            position: absolute;
+            margin-left: 195px;
+            margin-bottom: 10px;
+            background-color: orangered;
+            width: 7px;
+            height: 7px;
+    }        
+</style>
+</head>
+<body>
+    <section>
+        <hr/>
+    <header>
+        <h1>Selling<h6 id=square></h6>
+        </h1>
+            <ul>
+                <li style="color: red;">HOME</li>
+                <li>PRODUCTS</li>
+                <li>ABOUT US</li>
+                <li>SPECIAL</li>
+                <li>TESTIMONIALS</li>
+                <li>BLOG</li>
+                <li>CONTACT</li>
+            </ul>
+    </header>
+    <!-- <div class="div1"> -->
+        <img src="hero_2.jpg" width="100%" id="image1"/>
+        <div class="div2">
+            <h1>Shop With Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla id nam voluptatibus pariatur rerum fugit enim officia.</p>
+            <button id="btn1">SHOP NOW</button>
+            <button id="btn2">CLUB MEMBERSHIP</button>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
